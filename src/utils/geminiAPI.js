@@ -1,6 +1,6 @@
 import { calculateBuildEnergy } from './formulas';
 
-const GEMINI_API_KEY = "AIzaSyBhhB_L28I3r5S6OKAJjdzVNB0qhvyFW9c";
+//const GEMINI_API_KEY = "AIzaSyBhhB_L28I3r5S6OKAJjdzVNB0qhvyFW9c";
 const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`;
 
 export async function generateMLOptimizations(builds, projectInfo) {
