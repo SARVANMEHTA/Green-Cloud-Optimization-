@@ -150,22 +150,7 @@ CO₂ (g) = [Idle_Power + (CPU%/100) × (TDP − Idle_Power) + (RAM_GB × 0.3725
            × Carbon_Intensity_Region
 ```
 
----
 
-## 🌍 Supported Data Center Regions
-
-| Region | Carbon Intensity | Notes |
-|--------|-----------------|-------|
-| US-West | 110 gCO₂/kWh | Heavy hydro — cleanest US region |
-| EU-West | 180 gCO₂/kWh | High renewable mix |
-| US-East | 374 gCO₂/kWh | Mixed grid — default |
-| AP-Southeast | 450 gCO₂/kWh | Asia Pacific |
-| IN-South | 580 gCO₂/kWh | India South grid |
-| CN-East | 760 gCO₂/kWh | China East — coal heavy |
-
-> **Key insight:** The same build in US-West produces 8× less carbon than in a coal-heavy region — with zero code changes.
-
----
 
 ## 🛠️ Tech Stack
 
