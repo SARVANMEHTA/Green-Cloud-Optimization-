@@ -391,7 +391,7 @@ ml_predictions/{projectId}/items/
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
-
+  developed by vaishnavi
 ## 🙏 Acknowledgements
 
 - [Green Software Foundation](https://greensoftware.foundation/) — SCI Formula specification
